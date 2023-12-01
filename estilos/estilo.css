@@ -1,0 +1,318 @@
+body {
+  font-family: 'Arial', sans-serif;
+  width: auto;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+header {
+  color: #4caf50;;
+  text-align: center;
+}
+/*barra de navegacion*/
+nav {
+  background-color: white;
+  color:#4caf50 ;
+  padding: 0.5em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.img-nav{
+  width: 200px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 32px;
+}
+  nav li {
+  display: inline-block;
+}
+li a {
+display: inline-block; 
+color:#4caf50 ;
+padding: 20px 15px;
+text-decoration: none;
+font-size: 28px;
+} 
+li a:hover {
+background-color: #ADEBC2;
+}
+
+.inicio {
+  text-align: center;
+}
+.img-inicio{
+  width: 100%;
+}
+/*footer*/
+.ft{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    flex-wrap: wrap;
+  }
+  .ft-1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .ft-2{
+    display: flex;
+    color:white;
+    flex-direction: column;
+  }
+  .ft-3{
+    color:white;
+    display: flex;
+    flex-direction: column;
+  }
+  .ft-4{
+    color:white;
+    display: flex;
+  }      
+/*contenedor destinos*/
+.destinos{
+  flex: 2;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: greenyellow;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contenedor-destinos{
+  display: flex;
+  flex-wrap: wrap;
+} 
+.titulo-destinos{
+  padding: 10px;
+  text-align: center;
+}
+.p-destinos{
+  font-size: 26px;
+  font-weight: bolder;
+  color: #053b08;
+}
+.img-destinos{
+  width:100%;
+  height:400px;
+}
+/*frame imagenes contacto*/
+.cont-frame{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titulo-contacto{
+  background-color: #fff;
+  padding: 25px;
+  text-align: center;
+}
+/*formulario*/
+.form-1{
+  display: flex;
+  justify-content: center;
+}
+.form-titulo{
+  text-align: center;
+}
+.text-contacto{
+  text-align: center;
+}
+form{
+  background-color: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/*formulario de contacto*/
+.form-2{
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: greenyellow;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contenedor-contacto{
+  display: flex;
+  flex-wrap: wrap;
+}
+/*pag destino*/
+.articulo-1{
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*pag destino*/
+.cont-desti-2{
+  display: flex;
+}
+.cont-desti-3{
+  display: flex;
+}
+.desti-art{
+  display: flex;
+}
+/*video pág destino*/
+.video {
+  width: 100%;
+}
+.video iframe {
+  width: 100%;
+  height: 300px;
+}
+/*ofertas destino*/
+.oferta {
+  border: 1px solid #ccc;
+  width: 30%;
+  margin: 1.66%;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+}
+.oferta img {
+  width: 100%;
+  height: 300px;
+}
+
+.oferta h2, .oferta p {
+  padding: 0 10px;
+}
+.oferta button {
+  background-color: #45a049;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+.titulo-destinos{
+  text-align: center;
+}
+.text-destino{
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*pag destinos*/
+.destinations-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.destination {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  transition: flex 0.5s ease-in-out;
+}
+
+.destination img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.destination-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.destination:hover {
+  flex: 2;
+}
+
+.destination:hover .destination-content {
+  display: none;
+}
+.text-destinos{
+  color: white;
+  font-size: 26px;
+  background-color:  #45a04982;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+/*contacto*/
+.img-contacto{
+  width:100%;
+  height:500px;
+}
+/* destinos*/
+.img-destinos{
+  width:100%;
+  height:400px;
+}
+.img-destinos-2{
+  width:100%;
+  height:200px;
+}
+.img-ofertas{
+  width:100%;
+  height:400px;
+}
+.img-ofertas-2{
+  width:100%; 
+  height:200px;
+}
+.img-parques{
+  width:100%;
+  height:400px;
+}
+.img-parques-2{
+  width:100%; 
+  height:200px;
+}
