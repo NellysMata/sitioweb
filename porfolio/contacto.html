@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlace a la hoja de estilos y favicon -->
+    <link rel="stylesheet" href="../estilos/estilo.css">
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+
+    <!-- Título de la página -->
+    <title>N&N Travels</title>
+</head>
+<body>
+    <!-- Encabezado con la barra de navegación -->
+    <header>
+        <nav class="nav">
+            <!-- Logo de la agencia -->
+            <img class="img-nav" src="../images/logo-1.png" alt="logo-1">
+            <!-- Enlaces a las diferentes secciones del sitio -->
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../porfolio/ofertas.html">Ofertas</a></li>
+                <li><a href="../porfolio/destinos.html">Destinos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Espaciadores -->
+    <br>
+    <br>
+
+    <!-- Contenedor principal con secciones de contacto -->
+    <div class="cont-frame">
+        <!-- Sección 1: Información sobre el contacto -->
+        <section class="titulo-contacto">
+            <img class="img-contacto" src="../images/call_center.jpg" alt="call_center">
+            <h2>¡Estamos encantados de ayudarte!</h2> 
+            <p>Valoramos cada conexión con nuestros clientes y nos encantaría saber más sobre cómo podemos ayudarte.</p>
+        </section>
+        <!-- Sección 2: Descripción del formulario de contacto -->
+        <section class="text-contacto">
+            <h3>Al ponerte en contacto con nosotros a través de nuestro formulario, te brindamos una vía directa y eficiente para entender tus necesidades específicas. Ya sea que estés buscando respuestas a preguntas, información adicional sobre nuestros productos/servicios, o simplemente deseas aclarar una duda, estamos aquí para escucharte.</h3>
+        </section>
+    </div>
+
+    <!-- Sección de formulario de contacto -->
+    <section class="form-1">
+        <form action="procesar" method="post">
+            <h2 class="form-titulo">Formulario de contacto</h2>
+            <!-- Campo de nombre -->
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+            <br>
+            <!-- Campo de correo electrónico -->
+            <input type="email" id="correo" name="correo" required placeholder="Correo">
+            <br>
+            <!-- Campo de mensaje (área de texto) -->
+            <textarea id="mensaje" name="mensaje" rows="10" cols="65" required placeholder="Escribe aquí"></textarea>
+            <br>
+            <!-- Botón de envío -->
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <!-- Espaciadores -->
+    <br>
+
+    <!-- Contenedor de opciones de contacto -->
+    <div class="contenedor-contacto">
+        <!-- Sección 3: Preferencia de llamada telefónica -->
+        <section class="form-2">
+            <h3>Prefieres que te llamemos?</h3>
+            <p>Si quieres realizar una reserva o solicitar un presupuesto, pon tu número de teléfono y en breve un agente se pondrá en contacto contigo.</p>
+            <!-- Campo de teléfono -->
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+34 612612612" required>
+            <br>
+            <!-- Botón de envío -->
+            <input type="submit" value="Llamadme">
+        </section>
+        <!-- Sección 4: Asesor personal de viajes -->
+        <section class="form-2">
+            <h3>¿Quieres solicitar un asesor personal de viajes?</h3>
+            <p>Te ofrecemos la posibilidad de emprender tu viaje con la tranquilidad de saber que habrá alguien cuidando constantemente de tus necesidades y preocupándose por tu bienestar.</p>
+            <br>
+            <!-- Botón de envío -->
+            <input type="submit" value="Más información">
+        </section>
+    </div>
+
+    <!-- Espaciadores -->
+    <br>
+    <br>
+
+    <!-- Pie de página con secciones y texto informativo -->
+    <footer class="ft">
+        <!-- Sección 5: Atención al cliente en el pie de página -->
+        <section class="ft-1">
+            <h3>Atención al cliente</h3>
+            <p>¡Te ayudamos en todo lo que necesites!</p>
+            <p>+34 123 123 123</p>
+            <p>info@n&ntravels.com</p>
+            <p>Nuestro horario: L-V 9:00 a 18:30</p>
+        </section>
+        <!-- Sección 6: Información legal -->
+        <section class="ft-2">
+            <h3>Legal</h3>
+            <p>Política de cookies</p>
+            <p>Privacidad</p>
+            <p>Condiciones de envíos</p>
+            <p>Condiciones de cancelaciones</p>
+        </section>
+        <!-- Sección 7: Recursos y métodos de pago -->
+        <section class="ft-3">   
+            <h3>Recursos</h3>
+            <p>Preguntas frecuentes</p>
+            <p>Blog</p>
+            <img src="../images/met_pago.png" alt="metodos-de-pagos">
+        </section>
+        <!-- Texto de derechos de autor -->
+        <p class="ft-4">© 2023 Nellys Mata. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

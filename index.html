@@ -1,0 +1,106 @@
+<!-- 
+Lenguaje de marcas, TareaEvaluativa 02, UD2, Nellys Nathaly Mata Marin, 01/12/2023 
+Descripción: Sitio web (60%)
+
+Mi autoevaluación: https://docs.google.com/document/d/1r_zqmRp9GYaAHNhN8FkXXM-JV-C82qsO2-dF_DEIYEI/edit?usp=sharing
+
+**************************************************************************************
+EN ESTÁ TAREA SOLO HE USADO CHATGTP PARA REFRESCAR CONOCIMIENTOS.
+**************************************************************************************-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Enlace a la hoja de estilos y favicon -->
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    
+    <!-- Título de la página -->
+    <title>N&N Travels</title>
+</head>
+<body>
+    <!-- Encabezado con barra de navegación -->
+    <header>
+        <nav class="nav">
+            <!-- Enlace a la página de inicio con el logo -->
+            <a href="index.html"><img class="img-nav" src="./images/logo-1.png" alt="logo"></a>
+            <!-- Lista de enlaces de navegación -->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./porfolio/ofertas.html">Ofertas</a></li>
+                <li><a href="./porfolio/destinos.html">Destinos</a></li>
+                <li><a href="./porfolio/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio con mensaje de bienvenida y imagen -->
+    <section class="inicio">
+        <h1>N&N Travels</h1>
+        <h2>¡Bienvenid@! a tu Agencia de Viajes favorita</h2>
+        <p>Explora con nosotros los mejores destinos a los mejores precios.</p>
+        <img class="img-inicio" src="./images/imagen_1.jpeg" alt="imagen-inicio">
+    </section>
+
+    <!-- Título y separador para las ofertas de último momento -->
+    <h3 class="titulo-destinos">Ofertas de último momento</h3>
+    <hr>
+
+    <!-- Contenedor de destinos con enlaces y botones de más información -->
+    <div class="contenedor-destinos">
+        <article class="destinos">
+            <img class="img-destinos" src="./images/costas.jpg" alt="destinos-costas">
+            <h2 class="p-destinos">Ofertas en las Costas</h2>
+            <a href="./porfolio/destinos-costas.html" class="boton">Más información</a>
+        </article>
+        <article class="destinos">
+            <img class="img-destinos" src="./images/parques.jpg" alt="destinos-parques">
+            <h2 class="p-destinos">Ofertas Parques Temáticos</h2>
+            <a href="./porfolio/destinos-parques.html" class="boton">Más información</a>
+        </article>
+        <article class="destinos">
+            <img class="img-destinos" src="./images/caribe.jpg" alt="destinos-caribe">
+            <h2 class="p-destinos">Ofertas en el Caribe</h2>
+            <a href="./porfolio/destinos-caribe.html" class="boton">Más información</a>
+        </article>
+    </div>
+
+    <!-- Separadores y espacio adicional -->
+    <br>
+    <hr>
+    <br>
+    <br>
+      <!-- Pie de página con secciones y texto informativo -->
+      <footer class="ft">
+        <!-- Sección 5: Atención al cliente en el pie de página -->
+        <section class="ft-1">
+            <h3>Atención al cliente</h3>
+            <p>¡Te ayudamos en todo lo que necesites!</p>
+            <p>+34 123 123 123</p>
+            <p>info@n&ntravels.com</p>
+            <p>Nuestro horario: L-V 9:00 a 18:30</p>
+        </section>
+        <!-- Sección 6: Información legal -->
+        <section class="ft-2">
+            <h3>Legal</h3>
+            <p>Política de cookies</p>
+            <p>Privacidad</p>
+            <p>Condiciones de envíos</p>
+            <p>Condiciones de cancelaciones</p>
+        </section>
+        <!-- Sección 7: Recursos y métodos de pago -->
+        <section class="ft-3">   
+            <h3>Recursos</h3>
+            <p>Preguntas frecuentes</p>
+            <p>Blog</p>
+            <img src="./images/met_pago.png" alt="metodos-de-pagos">
+        </section>
+        <!-- Texto de derechos de autor -->
+        <p class="ft-4">© 2023 Nellys Mata. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
